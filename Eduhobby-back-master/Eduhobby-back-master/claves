@@ -1,0 +1,31 @@
+ENVIRONMENT="local"
+
+#MONGO
+MONGODB_LOCAL_CONNECTION="mongodb://0.0.0.0:27017"
+MONGODB_ATLAS_CONNECTION="mongodb+srv://cosmos:TeamCosmosBACN123@eduhobby-cluster1.nfdbp9p.mongodb.net/?retryWrites=true&w=majority&appName=Eduhobby-cluster1"
+MONGO_DATA_API_KEY=jdeOaRbfEcful0cHC4CNQk2y3MXaqq5zTn5nvfyCN8D15pap3BRtvWgP4diCRrjx
+
+#Azure
+SAS_TOKEN="sv=2022-11-02&ss=bfqt&srt=o&sp=rwdlacupiytfx&se=2024-05-30T08:03:50Z&st=2024-05-30T00:03:50Z&spr=https&sig=%2BOcJD1e%2FFDFxTkjIzsHPpO0SmLF7enZDehxzDJp9%2FtE%3D"
+ACCOUNT_KEY="FgIevwAwO1A38BmPC00blwaVFR11KpoNbV52XDrI3mTvJ8HASe2qIt1xoUuBnxFe67RI7HC8hIyF+AStsC7r6w=="
+ACCOUNT_NAME="eduhobbystorage"
+CONTANIER="videoeduhobby"
+URL_SAS_TOKEN="https://eduhobbystorage.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=o&sp=rwdlacupiytfx&se=2024-05-30T08:03:50Z&st=2024-05-30T00:03:50Z&spr=https&sig=%2BOcJD1e%2FFDFxTkjIzsHPpO0SmLF7enZDehxzDJp9%2FtE%3D"
+
+#secrets to create tokens
+JWT_SECRET = 'a086de1c00ebef703d661bf44f59ff273d9d18423c76bc4fe5e5387a8b17930e5c7ba33bfb21c99ed4b2a5e1515cca08bad9c60f4edd7ff14218676f1a6b636d'
+JWT_REFRESH_SECRET = '8de7ead960f0d4c015494a87c52363f9d7acf149337bdfbd12bb163352a20139c9d668a143d1a7fc9115db4c6486d94a6223a7581cb90fd4a33d0ce45c0ad09f'
+JWT_SECRET_VERIFY_EMAIL = '34da0ce9a927c5ab6fcb27777ff801e09416c68ef232eb41322196bed68ce3d5'
+
+#GENIUS's gmail service, credentials
+EMAIL_SERVICE=gmail 
+GENIUS_EMAIL="genius.inc.corp@gmail.com"
+GENIUS_PASSWORD="g{F20I_2ti1\"
+GENIUS_APP_PASSWORD="ktul fnxy pywz rjug"
+
+#paypal
+PAYPAL_EMAIL="genius.inc.corp@gmail.com"
+PAYPAL_PASSWORD="ABC.Geniu$3S"
+PAYPAL_CLIENT_ID="AXEGosg7HE2eLNhisj9aF0mGzBLPyRddfwL7lBmOCik7REF-JT1wpcd8LZu4niw0ZN9dopnOxOTVzlEc"
+PAYPAL_SECRET_KEY_ONE="EF4KbzDgedQo7PesKa_36To-A2H684jVpTHLZ5CZAi7VZg76N5PDOX4WX7VHdv2rUlTsalwiHYGzSixy"
+PAYPAL_SANDBOX_URL="https://api-m.sandbox.paypal.com"
